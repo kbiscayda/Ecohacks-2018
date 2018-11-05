@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumSeaGreen;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 3px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 5vw;
+
+}
+</style>
+</head>
+<body>
+<h1 style="font-size:8vw" >Data:</h1>
+
+<div class="flex-container">
+  <div>CHW Total</div>
+  <div>HW Total</div>
+  <div>CHW KL</div>
+  <div>HW KL</div>
+  <div>CHW COB</div>
+  <div>HW COB</div>
+  <div>CHW SE1</div>
+  <div>HW SE1</div>
+  <div>CHW SE2</div>
+  <div>HW SE2	</div>
+  <div>CHW SSB</div>
+  <div>HW SSB</div>
+  <div>CHW SSM</div>
+  <div>HW SSM</div>
+  <div>CHW SAAC</div>
+  <div>HW SAAC</div>
+  <div>Total Sun Power KWH</div>
+
+
+</div>
+
+
+</body>
+</html>
